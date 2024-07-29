@@ -1,0 +1,74 @@
+{
+    "intents": [
+        {
+            "tag": "greetings",
+            "patterns": ["hello", "hi", "hey", "good day", "greetings", "what's up", "how is it going?"],
+            "responses": ["Hello!", "Hey!", "What can I do for you?"]
+        },
+        {
+            "tag": "goodbye",
+            "patterns": ["cya", "see you later", "goodbye", "I am leaving", "have a good day", "bye", "cao", "see ya"],
+            "responses": ["Sad to see you go :(", "Talk to you later", "Goodbye"]
+        },
+        {
+            "tag": "thanks",
+            "patterns": ["thanks", "thank you", "that's helpful", "thanks a lot"],
+            "responses": ["You're welcome!", "Happy to help!", "Anytime!"]
+        },
+        {
+            "tag": "noanswer",
+            "patterns": [],
+            "responses": ["Sorry, I don't understand that."]
+        },
+        {
+            "tag": "help",
+            "patterns": ["can you help me?", "I need assistance", "can you assist me?", "help me out"],
+            "responses": ["Of course! How can I assist you?", "I'm here to help. What do you need?"]
+        },
+        {
+            "tag": "weather",
+            "patterns": ["what's the weather like?", "is it going to rain?", "weather forecast"],
+            "responses": ["I can't check the weather right now, but you can look it up online."]
+        },
+        {
+            "tag": "name",
+            "patterns": ["what's your name?", "who are you?", "your name?"],
+            "responses": ["I'm a chatbot created to help you!", "I'm your virtual assistant."]
+        },
+        {
+            "tag": "age",
+            "patterns": ["how old are you?", "what's your age?", "age?"],
+            "responses": ["I'm ageless!", "I exist outside of time."]
+        },
+        {
+            "tag": "date",
+            "patterns": ["what's the date today?", "today's date?", "what day is it?"],
+            "responses": ["You can check the date on your device."]
+        },
+        {
+            "tag": "joke",
+            "patterns": ["tell me a joke", "make me laugh", "I want to hear a joke"],
+            "responses": ["Why don't scientists trust atoms? Because they make up everything!", "What do you get when you cross a snowman and a vampire? Frostbite."]
+        },
+        {
+            "tag": "food",
+            "patterns": ["what should I eat?", "any food recommendations?", "I'm hungry"],
+            "responses": ["How about trying some pizza?", "Maybe a sandwich would be nice."]
+        },
+        {
+            "tag": "affirmation",
+            "patterns": ["I need some encouragement", "give me a positive affirmation", "make me feel better"],
+            "responses": ["You are capable of amazing things!", "Believe in yourself!"]
+        },
+        {
+            "tag": "programming",
+            "patterns": ["What is programming?", "What is coding?", "Tell me about programming", "Tell me about coding", "What is software development?"],
+            "responses": ["Programming, coding or software development, means writing computer code to automate tasks."]
+        },
+        {
+            "tag": "resource",
+            "patterns": ["Where can I learn to code?", "Best way to learn to code", "How can I learn programming", "Good programming resources", "Can you recommend good coding resources?"],
+            "responses": ["Check out the NeuralNine YouTube channel and The Python Bible series (7 in 1)."]
+        }
+    ]
+}
